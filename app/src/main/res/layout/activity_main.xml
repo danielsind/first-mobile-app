@@ -13,38 +13,11 @@
         android:textColor="@color/customButton2"
         android:textStyle="bold" />
 
-
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/pic" />
-
-    <Button
-        android:id="@+id/findRestaurantsButton"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="90dp"
-        android:background="@color/customButton2"
-        android:text="Quotes" />
-
-    <Button
-        android:id="@+id/findRestaurantsButton2"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/findRestaurantsButton3"
-        android:layout_marginBottom="98dp"
-        android:background="@color/customButton2"
-        android:shadowRadius="@android:integer/status_bar_notification_info_maxnum"
-        android:text="Favorites" />
-
     <Button
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="My Quotes"
-        android:id="@+id/findRestaurantsButton3"
+        android:text="Quotes"
+        android:id="@+id/findQuotesButton"
         android:background="@color/customButton2"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
