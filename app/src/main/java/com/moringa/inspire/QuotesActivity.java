@@ -34,6 +34,7 @@ public class QuotesActivity extends AppCompatActivity {
             Toast.makeText(QuotesActivity.this,quote, Toast.LENGTH_SHORT).show();
         }
     });
+    Intent intent = getIntent();
 
 }
 }

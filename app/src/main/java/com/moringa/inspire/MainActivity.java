@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v){
         if (v == mFindQuotesButton){
             Intent intent = new Intent(MainActivity.this, QuotesActivity.class);
+
             startActivity(intent);
         }
     }

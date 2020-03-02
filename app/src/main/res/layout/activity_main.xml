@@ -22,11 +22,11 @@
 
     <Button
         android:id="@+id/findQuotesButton"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_width="500dp"
+        android:layout_height="30dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@color/colorAccent"
+        android:background="@drawable/rounded_button"
         android:fontFamily="@font/wellfleet"
         android:text="Quotes"
         android:textSize="24sp" />
